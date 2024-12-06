@@ -1,0 +1,46 @@
+body {
+    margin: 40px auto;
+    line-height: 1.6;
+    font-size: 18px;
+    max-width: 700px;
+}
+
+.logo {
+    max-width: 100px;
+    padding-left: 50px;
+}
+
+header {
+    display: grid;
+    grid-template-columns: subgrid;
+    margin-bottom: 20px;
+}
+
+header nav {
+    grid-column: 2 / 10;
+    border-bottom: 1px solid black;
+}
+
+main {
+    display: grid;
+    grid-template-columns: subgrid;
+}
+
+.entry {
+    display: grid;
+    padding: 3em;
+}
+
+.sidebar {
+    grid-column: 1;
+    padding-left: 30px;
+}
+
+.entries {
+    grid-column: 2 / 10;
+}
+
+.sidebar p {
+    -webkit-writing-mode: vertical-rl;
+    writing-mode: vertical-rl;
+}
